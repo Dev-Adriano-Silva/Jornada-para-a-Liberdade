@@ -1,0 +1,35 @@
+.section-description{
+  background: var(--cor-preta-clara);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 38px 250px 38px 250px;
+}
+
+.titulo-description{
+  
+  Font-style: 700; 
+  font-size: 1.125rem;
+}
+.container-section-texto {
+  padding: 0 80px 0 70px;
+  color: var(--cor-clara);
+}
+
+.texto-p{
+  font-size: .875rem;
+}
+
+.section-description-2{
+  background: var(--cor-preta);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 38px 250px 38px 250px;
+}
+
+.texto-p-2{
+  font-size: .875rem;
+  text-align: justify;
+}
+

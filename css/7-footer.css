@@ -1,0 +1,4 @@
+.footer{
+  display: flex;
+  background: var(--cor-preta);
+}

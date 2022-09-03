@@ -1,0 +1,77 @@
+header{
+  background-color: #000000;
+}
+
+.formulario{
+  /* background: #ffffff; */
+  /* padding: 10px; */
+  border-radius: 10px;
+}
+
+
+.formulario-itens{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.formulario-itens input{
+  width: 350px;
+  padding: 7px;
+  border-radius: 10px;
+}
+
+.btn-form{
+ color: var(--cor-preta);
+ font-weight: bold;
+ font-family: 'Poppins', sans-serif;
+ padding: 20px 0 20px 0 !important;
+ font-size: 1.125rem;
+}
+
+
+
+
+.title-principal{
+  background: linear-gradient(180deg, #FFE5A1 0%, #BF841A 52.08%, #FFCD74 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-top: 40px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 21px 170px 60px 170px;
+}
+.texto-dourado{
+  background: linear-gradient(180deg, #FFE5A1 0%, #BF841A 52.08%, #FFCD74 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  line-height: 30px;
+  padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.caixa-text{
+  padding-right: 174px;
+  text-align: left;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.caixa-text p{
+  font-size: 1.125rem;
+}
+
+
+
+
+

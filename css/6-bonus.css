@@ -1,0 +1,20 @@
+.container-bonus{
+  padding:  46px 250px 46px 250px;
+  display: flex;
+  align-items: center;
+  
+}
+.container-texto-bonus{
+  padding: 0 43px 0 50px;
+  text-align: center;
+  font-size: 1.125rem;
+}
+.container-texto-bonus p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+.title-bonus{
+  padding-bottom: 10px;
+  font-family:'Poppins', sans-serif ;
+}
+

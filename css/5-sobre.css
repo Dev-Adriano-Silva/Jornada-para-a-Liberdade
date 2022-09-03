@@ -1,0 +1,22 @@
+.sobre{
+  background: url(../img/backgroumd\ sobre.png);
+  display: flex;
+  align-items: center;
+  padding: 46px 250px 46px 250px;
+}
+
+.container-texto-sobre{
+  padding-left: 100px;
+  
+}
+.container-texto-sobre h2{
+  padding-bottom: 10px;
+  color: var(--cor-clara);
+  font-weight: bold;
+  font-size: 2rem;
+}
+.container-texto-sobre p {
+  text-align: justify;
+  font-size: 1rem;
+  color: var(--cor-clara);
+}

@@ -1,0 +1,98 @@
+/* toda parte de responsividades do site  */
+
+/* para tablet  */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header-container{
+    padding: 25px 60px 21px 60px;
+    gap: 20px;
+  }
+
+  .title-principal{
+    
+  }
+  .caixa-text{
+    padding: 0 20px 0 20px;
+    text-align: justify;
+  }
+  .minho-logo{
+    height: 300px;
+  }
+  .texto-dourado{
+    font-size: 2rem !important;
+    
+  }
+  .text-main{
+    font-size: 1.125rem !important;
+  }
+
+
+
+/* section descriptions tablet */
+.section-description{
+  padding: 40px 90px 40px 90px;
+}
+.section-description-2{
+  padding: 40px 90px 40px 90px;
+}
+.container-section-texto{
+  text-align: justify;
+}
+.texto-dourado{
+  font-size: 1.125rem !important;
+}
+
+
+}
+
+
+
+
+
+
+/* para celular  */
+@media screen and (max-width: 767px){
+  .header-container{
+    flex-direction: column;
+    padding: 0px 20px 76px 20px ;
+  }
+  .title-principal{
+    font-size: 2rem;
+    padding: 20px 0 0 0;
+  }
+  .header-container img{
+    order: 0;
+  }
+  .caixa-text{
+    text-align: center;
+    padding: 0;
+    order: 1;
+  }
+  .minho-logo{
+    height: 200px;
+  }
+
+  
+  
+  /* section para celular */
+  .section-description{
+    flex-direction: column;
+    padding:  25px;
+  }
+  .section-description-2{
+    flex-direction: column;
+    padding: 25px;
+  }
+  .container-section-texto{
+    padding: 0;
+    text-align: center;
+  }
+  .titulo-description{
+    padding-top: 20px;
+  }
+  .texto-p{
+    padding-top: 10px;
+  }
+  .texto-p-2{
+    padding-top: 10px;
+  }
+}

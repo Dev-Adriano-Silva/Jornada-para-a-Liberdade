@@ -1,0 +1,53 @@
+/* todas as css's globais variáveis de cores e tudo mais  */
+
+body{
+  margin: 0px;
+  /* font-family: 'Montserrat', sans-serif;  */
+}
+
+h1,h2,h3,p{
+  margin:  0px;
+}
+
+ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+
+
+:root{
+--cor-preta:#000000;
+--cor-preta-clara: #202226;
+--cor-clara: #ffffff;
+--texto-titulos: font-family: 'Montserrat', sans-serif;
+--texto-texto: font-family: 'Poppins', sans-serif; 
+
+}
+
+.texto-dourada{
+  background: linear-gradient(180deg, #FFE5A1 0%, #BF841A 52.08%, #FFCD74 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.btn-dourado{
+  background: linear-gradient(180deg, #FFE5A1 0%, #BF841A 52.08%, #FFCD74 100%);
+}
+
+
+
+.text-poppins{
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-montserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
