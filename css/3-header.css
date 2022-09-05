@@ -17,7 +17,7 @@ header{
 }
 
 .formulario-itens input{
-  width: 350px;
+  width: 403px;
   padding: 7px;
   border-radius: 10px;
 }
@@ -61,7 +61,7 @@ header{
 }
 
 .caixa-text{
-  padding-right: 174px;
+  padding: 0 100px 0 43px;
   text-align: left;
   line-height: 18px;
   color: #ffffff;
@@ -69,6 +69,10 @@ header{
 
 .caixa-text p{
   font-size: 1.125rem;
+}
+
+.minho-logo{
+  padding-right: 39px;
 }
 
 

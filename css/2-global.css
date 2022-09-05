@@ -3,6 +3,7 @@
 body{
   margin: 0px;
   /* font-family: 'Montserrat', sans-serif;  */
+  background: var(--cor-preta);
 }
 
 h1,h2,h3,p{
@@ -19,6 +20,9 @@ ul{
 img{
   max-width: 100%;
   display: block;
+}
+a{
+  text-decoration: none;
 }
 
 
@@ -50,4 +54,6 @@ img{
 .text-montserrat{
   font-family: 'Montserrat', sans-serif;
 }
+
+
 

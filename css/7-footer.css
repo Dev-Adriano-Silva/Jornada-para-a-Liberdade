@@ -1,4 +1,19 @@
 .footer{
   display: flex;
   background: var(--cor-preta);
+  padding:  170px 210px 170px 210px;
+  align-items: center;
+  gap: 40px;
+}
+
+.container-text-footer p{
+  color: var(--cor-clara);
+}
+
+.btn-footer{
+  padding: 20px 10px 20px 10px;
+}
+.btn-footer a{
+  color: var(--cor-preta);
+  font-weight: bold;
 }
