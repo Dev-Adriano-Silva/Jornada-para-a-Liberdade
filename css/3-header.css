@@ -1,5 +1,7 @@
 header{
-  background-color: #000000;
+  /* background: linear-gradient(45deg, #000000 0%, #434343 100%); */
+  background-image: url(../img/teste\ header\ main.png);
+  background-size: cover;
 }
 
 .formulario{
@@ -29,7 +31,9 @@ header{
  padding: 20px 0 20px 0 !important;
  font-size: 1.125rem;
 }
-
+.btn-form:hover{
+  color: var(--cor-clara);
+}
 
 
 
