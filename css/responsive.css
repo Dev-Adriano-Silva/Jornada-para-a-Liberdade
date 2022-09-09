@@ -1,14 +1,14 @@
 /* toda parte de responsividades do site  */
 
 /* para tablet  */
-@media screen and (max-width: 1153px) and (min-width: 768px) {
+@media (max-width: 1153px) and (min-width: 768px) {
   header{
     background-image: none;
     
   }
   .header-container{
     padding: 30px 40px 30px 40px;
-    gap: 30px;
+    gap: 15px;
     justify-items: center;
   }
 
@@ -17,16 +17,14 @@
     padding: 0 30px 0 10px;
     text-align: left;
   }
-  .caixa-text p{
-    line-height: 25px;
-  }
+  
   .minho-logo{
-    height: 350px;
+    height: 300px;
     padding-right: 0px;
   }
   .texto-dourado{
     font-size: 1.5rem !important;
-    
+    line-height: 28px;
   }
  
   .formulario-itens input{
@@ -102,37 +100,63 @@
 
 /* para celular  */
 @media screen and (max-width: 767px){
+  header{
+    background-image: none;
+  }
  .header-container{
     flex-direction: column;
-    padding: 0px 20px 76px 20px ;
+    padding: 0px 0px 0px 0px ;
   }
   .title-principal{
     font-size: 2rem;
-    padding: 20px 0 0 0;
+    padding: 5px 0 0 0;
   }
   .header-container img{
     order: 0;
   }
-  .caixa-text{
+
+  .texto-dourado{
     text-align: center;
+    line-height: 25px;
+    padding-bottom: 0px;
+  }
+  .text-main{
+    text-align: center;
+  }
+
+  .formulario-itens input{
+    width: 300px;
+    padding: 7px;
+    border-radius: 10px;
+    margin: 0 auto;
+  }
+  .caixa-text{
+    margin: 10px 25px 20px 25px;
     padding: 0;
     order: 1;
   }
   .minho-logo{
-    height: 200px;
+    height: 170px;
+    padding: 0;
   }
 
   
   
-  /* section para celular */
+  /* section descrição para celular */
+  .container-descricao{
+    padding: 0;
+  }
+  .img-descricao{
+    height: 100px;
+  }
   .section-description{
     flex-direction: column;
-    padding:  25px;
+    background: none;
+    margin: 35px;
+    padding: 10px;
+    
   }
-  .section-description-2{
-    flex-direction: column;
-    padding: 25px;
-  }
+
   .container-section-texto{
     padding: 0;
     text-align: center;
@@ -146,4 +170,60 @@
   .texto-p-2{
     padding-top: 10px;
   } 
+  .section-description{
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  
+  .section-description:hover{
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+
+  /* section sobre para celular */
+  .sobre{
+    background: none;
+    padding: 0;
+    margin: 40px 45px 40px 45px;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+  }
+  .container-texto-sobre{
+    text-align: center;
+    padding: 0;
+  }
+
+  .container-texto-sobre p {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: normal;
+  }
+  .img-sobre{
+    height: 170px;
+  }
+
+  .whats-link{
+    display: none;
+  }
+
+
+  /* section bonus resposive mobile  */
+
+  .container-bonus{
+    padding: 15px 0 15px 0;
+    flex-direction: column;
+    
+  }
+  .img-height{
+    height: 150px;
+  }
+  .container-texto-bonus {
+    padding: 0;
+    margin: 20px;
+    text-align: center;
+  }
 }
