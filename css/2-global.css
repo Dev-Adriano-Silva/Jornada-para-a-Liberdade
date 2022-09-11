@@ -51,8 +51,17 @@ a{
   font-family: 'Poppins', sans-serif;
 }
 
+
 .text-montserrat{
   font-family: 'Montserrat', sans-serif;
+}
+
+.text-montserrat-p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  color: var(--cor-preta);
 }
 
 

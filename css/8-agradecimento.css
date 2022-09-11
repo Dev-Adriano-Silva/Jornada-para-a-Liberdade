@@ -1,0 +1,24 @@
+main{
+  
+}
+.container-agradecimento{
+  background-image: url(../img/teste\ header\ main.png);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.agradecimento-img{
+  height: 300px;
+}
+.container-de-texto-agradecimento{
+  background: var(--cor-clara);
+  border-radius: 20px;
+  padding: 50px;
+  width: 500px;
+  height: 416px;
+}
+.container-de-texto-agradecimento h1{
+  font-weight: bold;
+}

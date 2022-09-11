@@ -109,7 +109,7 @@
   }
   .title-principal{
     font-size: 2rem;
-    padding: 5px 0 0 0;
+    padding: 20px 0 0 0;
   }
   .header-container img{
     order: 0;
@@ -225,5 +225,28 @@
     padding: 0;
     margin: 20px;
     text-align: center;
+  }
+
+  
+  
+  /* footer mobile  */
+  .footer{
+    padding: 0;
+    flex-direction: column;
+  
+    margin: 20px 40px 10px 40px;
+  }
+  .footer img{
+    height: 150px;
+  }
+
+  .container-text-footer{
+    text-align: center;
+  }
+  .container-text-footer h2{
+    font-size: 1.5rem;
+  }
+  .container-text-footer p{
+    font-size: 1rem;
   }
 }
