@@ -3,8 +3,10 @@ main{
 }
 .container-agradecimento{
   background-image: url(../img/teste\ header\ main.png);
-  
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   height: 100vh;

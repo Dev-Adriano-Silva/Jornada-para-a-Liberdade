@@ -91,6 +91,18 @@
   padding: 20px 0 20px 40px;
   gap: 20px;
 }
+
+/* obrigado para tablet  */
+.agradecimento-img{
+  height: 250px;
+}
+.container-de-texto-agradecimento{
+  background: var(--cor-clara);
+  border-radius: 20px;
+  padding: 35px;
+  width: 400px;
+  height: 400px;
+}
 }
 
 
@@ -249,4 +261,30 @@
   .container-text-footer p{
     font-size: 1rem;
   }
+
+
+
+
+  /* obrigado mobile  */
+  .agradecimento-img{
+    height: 200px;
+  }
+  .container-de-texto-agradecimento{
+    background: var(--cor-clara);
+    border-radius: 24px;
+    padding: 20px;
+    width: 350px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container-de-texto-agradecimento h1{
+    text-align: center;
+  }
+  .container-de-texto-agradecimento p {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
 }
